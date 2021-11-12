@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 final class DB
 {
     protected static PDO $instance;
@@ -48,7 +50,7 @@ final class DB
 
         return self::$instance;
     }
-    
+
 }
 
 final class UserInfo
